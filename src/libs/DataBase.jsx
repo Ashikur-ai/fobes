@@ -125,7 +125,7 @@ const items = [
           "Physical Attacks Against Bitcoin Holders Surge As BTC Price Rises",
           "New Guns, More Ammo: Ukraine’s Artillery Blasts Away At A Rate Of...",
           "The Real Reasons Companies Are Forcing You Back To The Office",
-          
+
           "The Highest-Paid Actors Of 2024",
           "4 Reasons Behind ‘Phantom Plus-One’ Relationships—By A Psychologist",
           "A Hapless Russian Soldier Couldn’t Shoot Down A Ukrainian Bomber Dron...",
@@ -152,5 +152,47 @@ const items = [
   },
 ];
 
+import slider1 from "/images/newsSlider/slider1.webp"
+import slider2 from "/images/newsSlider/slider2.webp"
+import slider3 from "/images/newsSlider/slider3.webp"
+const newsSliderData = [
+  {
+    id: 1,
+    title: `Singapore’s Paragon In Deal Valuing Shopping Mall REIT At $2.1 Billion
+             Thai Scion Taps U.S. Gas Wells To Help Family’s Coal Giant Go Green`,
+    image: slider1
+  },
+  {
+    id: 2,
+    title: `Singapore’s Paragon In Deal Valuing Shopping Mall REIT At $2.1 Billion
+             Thai Scion Taps U.S. Gas Wells To Help Family’s Coal Giant Go Green`,
+    image: slider2
+  },
+  {
+    id: 3,
+    title: `Singapore’s Paragon In Deal Valuing Shopping Mall REIT At $2.1 Billion
+             Thai Scion Taps U.S. Gas Wells To Help Family’s Coal Giant Go Green`,
+    image: slider3
+  },
+  {
+    id: 1,
+    title: `Singapore’s Paragon In Deal Valuing Shopping Mall REIT At $2.1 Billion
+             Thai Scion Taps U.S. Gas Wells To Help Family’s Coal Giant Go Green`,
+    image: slider1
+  },
+  {
+    id: 2,
+    title: `Singapore’s Paragon In Deal Valuing Shopping Mall REIT At $2.1 Billion
+             Thai Scion Taps U.S. Gas Wells To Help Family’s Coal Giant Go Green`,
+    image: slider2
+  },
+  {
+    id: 3,
+    title: `Singapore’s Paragon In Deal Valuing Shopping Mall REIT At $2.1 Billion
+             Thai Scion Taps U.S. Gas Wells To Help Family’s Coal Giant Go Green`,
+    image: slider3
+  }
+]
 
-export { BreakingNewsData, subNewsData, otherNewsData, items }
+
+export { BreakingNewsData, subNewsData, otherNewsData, items, newsSliderData }
