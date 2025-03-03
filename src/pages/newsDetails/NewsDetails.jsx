@@ -2,9 +2,11 @@ import React from 'react';
 import mainImg from '/images/newsPic/mainNews.webp'
 import subImg from '/images/newsPic/subNews.webp'
 import { IoIosBookmark, IoMdShare } from 'react-icons/io';
+import { ScrollRestoration } from 'react-router-dom';
 const NewsDetails = () => {
   return (
     <div>
+      <ScrollRestoration/>
       <div className="bg-black text-white ">
         <p className="text-3xl lg:text-5xl py-20 font-Playfair lg:w-1/2 text-center mx-auto">
           Billionaire Robert Kuok’s Grandson Drives $10 Billion Bet On AI Data Centers
