@@ -6,6 +6,7 @@ import { Button } from 'flowbite-react';
 import { FaRegBookmark } from 'react-icons/fa';
 import sidebarImg from '/images/sidebarImg.webp'
 import { Checkbox, Input, Tabs } from 'antd';
+import { Link } from 'react-router-dom';
 
 const Banner = () => {
   return (
@@ -19,8 +20,10 @@ const Banner = () => {
           <div className="">
             <img src={banner} alt="" className='transition delay-300 duration-200 ' />
             <div className="py-5 space-y-2">
-              <p className="font-Playfair font-semibold text-2xl text-center">
-                Billionaire Robert Kuok’s Grandson Drives $10 Billion Bet On AI Data Centers
+              <p className="font-Playfair font-semibold text-2xl text-center hover:underline">
+                <Link to={'/news-details'}>
+                  Billionaire Robert Kuok’s Grandson Drives $10 Billion Bet On AI Data Centers
+                </Link>
               </p>
               <p className="text-center text-[12px]">ByJonathan Burgos, Forbes Staff</p>
               <p className='text-center'>
@@ -118,7 +121,7 @@ const Banner = () => {
         <div className="flex gap-2">
           <div className="w-[70%] md:w-[90%]">
             <Input placeholder="Email Address" className='placeholder-gray-400' />
-         </div>
+          </div>
           <Button>Sign Up</Button>
         </div>
       </div>
